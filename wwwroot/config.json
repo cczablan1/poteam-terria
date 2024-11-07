@@ -40,10 +40,14 @@
     "appName": "POTeam Data Hub",
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "",
       "<a target=\"_blank\" href=\"https://msi.upd.edu.ph/research/laboratory/\"><img src=\"images/poteam_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-      ""
+      "<a target=\"_blank\" href=\"https://msi.upd.edu.ph/research/laboratory/\"><img src=\"images/msi_logo.png\" height=\"40\" title=\"Version: {{version}}\" /></a>"
     ],
+
+    "brandBarSmallElements": [
+      "<a target=\"_blank\" href=\"https://msi.upd.edu.ph/research/laboratory/\"><img src=\"images/poteam_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>"
+    ],
+
     // Shown when things go wrong.
     "supportEmail": "cczablan1@up.edu.ph",
     // You probably shouldn't change this.
