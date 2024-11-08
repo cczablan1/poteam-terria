@@ -82,7 +82,7 @@ module.exports = function (devMode, hot) {
           }
         },
         {
-          test: /globe\.gif$/,
+          test: /boat\.gif$/,
           include: path.resolve(__dirname, "..", "lib", "Styles"),
           loader: "url-loader",
           options: {

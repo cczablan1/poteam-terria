@@ -1,4 +1,4 @@
-const globeGif = require("./lib/Styles/globe.gif");
+const boatGif = require("./lib/Styles/boat.gif");
 const polyfill = require("terriajs/lib/Core/polyfill");
 
 require("./lib/Styles/loader.css");
@@ -29,19 +29,11 @@ function createLoader() {
   const loaderDiv = document.createElement("div");
   loaderDiv.classList.add("loader-ui");
   const loaderGif = document.createElement("img");
-  loaderGif.src = globeGif;
-  const loaderLeft = document.createElement("div");
-  loaderLeft.classList.add("loader-ui-left");
-  const loaderGrabber = document.createElement("div");
-  loaderGrabber.classList.add("loader-ui-grabber");
-  const loaderRight = document.createElement("div");
-  loaderRight.classList.add("loader-ui-right");
-  loaderRight.appendChild(loaderGif);
+  loaderGif.src = boatGif;
+  loaderGif.className = "responsive-gif";
+  loaderDiv.appendChild(loaderGif);
 
-  loaderDiv.appendChild(loaderLeft);
-  loaderDiv.appendChild(loaderRight);
-  loaderDiv.appendChild(loaderGrabber);
-  loaderDiv.style.backgroundColor = "#383F4D";
+  loaderDiv.style.backgroundColor = "#262626";
   document.body.appendChild(loaderDiv);
 
   polyfill(function () {
