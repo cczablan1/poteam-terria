@@ -1,9 +1,9 @@
 {
   "homeCamera": {
-    "north": 22,
-    "east": 137,
-    "south": 3,
-    "west": 108.75
+    "west": 115,
+    "south": 5,
+    "east": 130,
+    "north": 20
   },
   "catalog": [
     {
@@ -771,6 +771,15 @@
       "basemap-darkmatter"
     ],
     "items": [
+      {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "type": "bing-maps",
+          "name": "Bing Maps Aerial with Labels",
+          "opacity": 1
+        },
+        "image": "build/TerriaJS/images/PH-bing-aerial-labels.png"
+      },
       {
         "item": {
           "id": "basemap-openstreetmap",
