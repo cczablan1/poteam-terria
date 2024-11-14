@@ -47,10 +47,11 @@
     "brandBarSmallElements": [
       "<a target=\"_blank\" href=\"https://msi.upd.edu.ph/research/laboratory/\"><img src=\"images/poteam_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>"
     ],
-
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiZDA4NDliYi00YTc2LTQ4YjQtOWQ5NC1mNjlkM2IwNWE4NDkiLCJpZCI6Mjk5MiwiaWF0IjoxNzMwMDc4MzIzfQ.wM306A2S4Ngqagg4qThIu8eIl3SF8s_3v3ppMeRa4P4",
+    "useCesiumIonBingImagery": true,
     "theme": {
-      "charcoalGrey": "#1d5285",
-      "colorPrimary": "#5a84aa",
+      "charcoalGrey": "#262626",
+      "colorPrimary": "#37AFE1",
       "colorSplitter": "#ff6f00",
       "compassWidth": "60",
       "dark": "#262626",
@@ -61,7 +62,7 @@
       "greyLighter2": "#e6e6e6",
       "greyLightest": "#f2f2f2",
       "lg": "1300",
-      "mapButtonColor": "#ffffff",
+      "mapButtonColor": "#9ca1aa",
       "mapButtonTop": "18",
       "mapNavigationTop": "80",
       "md": "992",
@@ -85,6 +86,7 @@
       "trainerHeight": "64",
       "workbenchWidth": "350"
     },
+
     "hideTerriaLogo": true,
     "locationSearchBoundingBox": [114, 4, 127, 22],
     // Shown when things go wrong.
