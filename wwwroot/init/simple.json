@@ -760,9 +760,41 @@
       ]
     }
   ],
-  "viewerMode": "3dSmooth",
+  "viewerMode": "2d",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-positron",
-    "previewBaseMapId": "basemap-positron"
+    "defaultBaseMapId": "basemap-openstreetmap",
+    "previewBaseMapId": "basemap-openstreetmap",
+    "enabledBaseMaps": [
+      "basemap-openstreetmap",
+      "basemap-bing-aerial-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-openstreetmap",
+          "type": "url-template-imagery",
+          "name": "OpenStreetMap",
+          "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "opacity": 1
+        },
+        "image": "build/TerriaJS/images/PH-osm.png"
+      },
+      {
+        "item": {
+          "id": "basemap-positron",
+          "url": "https://basemaps.cartocdn.com/light_nolabels/"
+        },
+        "image": "build/TerriaJS/images/PH-positron.png"
+      },
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "url": "https://basemaps.cartocdn.com/dark_nolabels/"
+        },
+        "image": "build/TerriaJS/images/PH-dark-matter.png"
+      }
+    ]
   }
 }
