@@ -5,6 +5,13 @@
     "videoUrl": "https://www.youtube-nocookie.com/embed/FjSxaviSLhc",
     "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg"
   },
+
+  "measure": {
+    "measureTool": "Measure Tool",
+    "measureToolTitle": "Measure Tool",
+    "measureDistance": "Measure distances and areas by selecting points or drawing shapes."
+  },
+
   "stepbystepguide": {
     "title": "Step by step guide",
     "markdownText": "## Step by step guide\n\nLaunch a step by step guide for various popular workflows below:",
