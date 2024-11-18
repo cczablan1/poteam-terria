@@ -87,6 +87,7 @@
       "trainerHeight": "64",
       "workbenchWidth": "350"
     },
+
     "storyEnabled": false,
     "hideTerriaLogo": true,
     "locationSearchBoundingBox": [114, 4, 127, 22],
